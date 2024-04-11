@@ -1,0 +1,46 @@
+.card {
+    width: 300px;
+    border: 1px solid #000;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left; /* Aligns the text to the left */
+    border-radius: 15px; /* Adds rounded corners */
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    margin-bottom: 20px; /* Adds some space below the image placeholder */
+    background-image: url('  '); /* Add your image path here */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+}
+
+  .title {
+    display: flex; /* Aligns the title and the like button horizontally */
+    justify-content: space-between; /* Places the title and the like button at the ends */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+  
+  .category {
+    display: inline-block;
+    margin: 10px 0;
+  }
+  .tags {
+    display: flex; /* Aligns the tags horizontally */
+    justify-content: flex-start; /* Aligns the tags to the left */
+    gap: 10px; /* Adds some space between the tags */
+  }
+  .tags span {
+    background-color: #eee;
+    padding: 5px;
+  }
+  .like-button {
+    border: none;
+    background: none;
+  }
+  
